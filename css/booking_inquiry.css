@@ -1,0 +1,290 @@
+.booking_inquiry_process_box {
+    position: relative;
+    transition: all 300ms;
+}
+
+.booking_inquiry_process_box label {
+    position: relative;
+    margin-bottom: 10px;
+    top: 2px !important;
+}
+
+.booking_inquiry_process_box input[type=radio] {
+     position: relative;
+     display: initial;
+     width: auto;
+}
+
+.width_100 {
+    width: 100%;
+}
+
+.align_center_input {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.align_center_box {
+    text-align: -webkit-center;
+}
+
+.align_center_box label {
+    left: 0px;
+}
+
+.booking_inquiry_process_box input[type=checkbox] {
+    position: relative;
+    display: initial;
+    width: auto;
+}
+
+
+.booking_inquiry_process h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.booking_inquiry_process {
+    right: -999px;
+    opacity: 0;
+    position: absolute;
+    top: 30px;
+    width: calc(90%);
+}
+
+.booking_inquiry_process label {
+    color: white;
+}
+
+section#page-title {
+   padding: 10px 0 !important;
+}
+
+section#content {
+    padding: 20px;
+    background: url(https://cdn.thekatagency.com/black.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.booking_inquiry_next_button {
+    background: transparent;
+}
+
+.booking_inquiry_next_button:focus {
+    outline: none;
+}
+
+.duplicate_shift_button {
+    background: transparent;
+}
+
+.duplicate_shift_button:focus {
+    outline: none;
+}
+
+.complete_inquiry {
+    background: transparent;
+}
+
+.complete_inquiry:focus {
+    outline: none;
+}
+
+.select-type-button {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    background: transparent;
+    transition: all 300ms ease 0s;
+    padding: 15px !important;
+}
+
+.select-type-button:hover {
+   color: rgb(255, 255, 255);
+    box-shadow: black 2px 2px 8px -2px;
+    background: rgb(0, 0, 0);
+    transition: all 300ms ease 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+}
+
+.select-type-button:focus {
+    outline: none;
+}
+
+.select-type-button span {
+    font-size: 12px !important;
+    display: inherit;
+}
+
+.service_button_div {
+    padding: 3px;
+}
+
+.booking_inquiry_process_box  .day-container {
+    margin-bottom: 5px;
+}
+
+.booking_inquiry_process_box  .day-container input{
+    padding: 4px;
+    border-radius: 2px !important;
+    border: none;
+}
+
+.booking_inquiry_process_box  .day-container label {
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+    background: black;
+    border-color: black;
+}
+
+.ui-state-default.ui-state-highlight {
+    background: black !important;
+    border-color: black !important;
+    color: white !important;
+}
+
+.ui-state-default {
+    color: black;
+}
+
+.day-container {
+    width: 49%;
+    display: inline-block;
+}
+
+.day-container label{
+
+}
+
+.day-container input {
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+}
+
+.jvectormap-container {
+    height: 400px;
+}
+
+@media only screen and (min-width: 767px) {
+    .booking_inquiry_banner {
+        min-height: 600px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+.select-type-button{font-size: 15px;padding: 10px 15px !important;}
+    button.btn.booking_inquiry_next_button{
+        width: 100%;
+    margin-top: -30px !important;
+        font-size: 16px;
+            margin: 0 0% 10px;
+    }
+    .booking_inquiry_process_box .bg{
+        margin-top: 0 !important;
+    }
+    #gender button.btn.booking_inquiry_next_button, #provision button.btn.booking_inquiry_next_button,#location button.btn.booking_inquiry_next_button{
+            width: 93%;
+    }
+    #provision button.btn.booking_inquiry_next_button,#location button.btn.booking_inquiry_next_button{
+        margin-top: 0 !important;
+    }
+    #gender select#talent_gender{
+            height: 30px !important;
+    }
+    #gender select#talents_number{
+            height: 30px !important;
+    }
+    #provision .row .text-center br {
+        display: none
+    }
+    #provision .row .text-center div{
+        margin-bottom: 10px;
+    }
+    #client .align_center_box input {
+        width: 90%;
+            padding: 5px 10px;
+    }
+    div#map-container{
+        height: 100px !important;
+    }
+    #client .align_center_box label {
+        width: 25%;
+    float: left;
+    display: table-cell;
+    }
+    
+    #client .align_center_box {
+    display: table;
+    vertical-align: middle;
+    width: 96%;
+    margin-left: 2%;
+}
+    
+    #client .align_center_box .align_center_input {
+    width: 70%;
+    display: table-cell;
+    }
+    
+    #client .text-center button.btn.booking_inquiry_next_button {
+    width: 90%;
+    margin-top: 10px !important;
+}
+    
+    .day-container{
+        width: 98%!important;
+    }
+    
+   
+    
+    #shifts .banner #multiple-days-container .btn{
+            padding: 4px 25px;
+            font-size: 18px;
+    }
+    
+    #shifts button.btn.booking_inquiry_next_button{
+            width: 90%;
+    margin-top: 30px !important;
+    }
+    
+    #multiple-days-container .btn{
+        padding: 5px 40px;
+            font-size: 16px;
+    }
+}
+
+ div#shifts {
+    margin-top: -250px !important;
+        padding-bottom: 40px;
+}
+
+ #day_2 > label:first-child,#day_3 > label:first-child,#day_4 > label:first-child{
+        padding: 20px 0; 
+     float: none;
+     width: fit-content;
+    }
+
+#day_2 input.tleft, #day_3 input.tleft,#day_4 input.tleft{
+    float: left;
+    width: 50%!important;
+    margin-bottom: 8px;
+    font-size: 15px!important;
+}
+
+#day_2 > label,#day_3 > label,#day_4 > label {
+    float: left;
+    width: 43%;
+}

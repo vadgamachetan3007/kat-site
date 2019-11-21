@@ -1,0 +1,78 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 23/02/2019 10:01
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-trophy:before { content: "\f100"; }
+.flaticon-woman:before { content: "\f101"; }
+.flaticon-smartphone:before { content: "\f102"; }
+.flaticon-head:before { content: "\f103"; }
+.flaticon-agreement:before { content: "\f104"; }
+.flaticon-lock:before { content: "\f105"; }
+.flaticon-man:before { content: "\f106"; }
+.flaticon-email:before { content: "\f107"; }
+.flaticon-back:before { content: "\f108"; }
+.flaticon-right-arrow:before { content: "\f109"; }
+.flaticon-right-arrow-1:before { content: "\f10a"; }
+.flaticon-left-arrow:before { content: "\f10b"; }
+.flaticon-quotation:before { content: "\f10c"; }
+.flaticon-chat:before { content: "\f10d"; }
+.flaticon-check-symbol:before { content: "\f10e"; }
+.flaticon-tick:before { content: "\f10f"; }
+.flaticon-victory:before { content: "\f110"; }
+.flaticon-star:before { content: "\f111"; }
+.flaticon-recommended:before { content: "\f112"; }
+.flaticon-star-1:before { content: "\f113"; }
+.flaticon-rating:before { content: "\f114"; }
+.flaticon-github-logo:before { content: "\f115"; }
+.flaticon-github:before { content: "\f116"; }
+.flaticon-android-logo:before { content: "\f117"; }
+.flaticon-apple-macintosh-logo:before { content: "\f118"; }
+.flaticon-double-tick-indicator:before { content: "\f119"; }
+.flaticon-broken-link:before { content: "\f11a"; }
+.flaticon-letter:before { content: "\f11b"; }
+.flaticon-email-1:before { content: "\f11c"; }
+.flaticon-telephone:before { content: "\f11d"; }
+.flaticon-speech-bubble:before { content: "\f11e"; }
+.flaticon-team:before { content: "\f11f"; }
+.flaticon-employee:before { content: "\f120"; }
+.flaticon-workers:before { content: "\f121"; }
+.flaticon-facebook:before { content: "\f122"; }
+.flaticon-twitter-logo:before { content: "\f123"; }
+.flaticon-linkedin:before { content: "\f124"; }
+.flaticon-youtube-logo:before { content: "\f125"; }
+.flaticon-instagram-logo:before { content: "\f126"; }
+.flaticon-calendar:before { content: "\f127"; }
+.flaticon-upload:before { content: "\f128"; }
+.flaticon-server:before { content: "\f129"; }
+.flaticon-peace:before { content: "\f12a"; }
+.flaticon-html:before { content: "\f12b"; }
+.flaticon-advertising:before { content: "\f12c"; }
+.flaticon-earth-globe:before { content: "\f12d"; }
