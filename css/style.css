@@ -51,7 +51,7 @@ a:hover,a:focus{color:#23527c;text-decoration:underline}
 a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
 img{vertical-align:middle}
 .sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
-h2{font-family:inherit;font-weight:500;line-height:1.1;color:inherit;margin-top:20px;margin-bottom:10px;font-size:30px}
+h2, h1{font-family:inherit;font-weight:500;line-height:1.1;color:inherit;margin-top:20px;margin-bottom:10px;font-size:30px}
 .text-center{text-align:center}
 ul{margin-top:0;margin-bottom:10px}
 ul ul{margin-bottom:0}
@@ -137,7 +137,7 @@ ul ul{margin-bottom:0}
 @media (min-width:1200px) {
     .site-header .container-full{padding-left:40px;padding-right:40px}
 }
-h2{font-size:40px;text-transform:uppercase;margin:0}
+h2, h1{font-size:40px;text-transform:uppercase;margin:0}
 .navbar-toggle{float:none;margin:40px auto 0;display:block;width:50px}
 @media (min-width:768px) {
     .navbar-toggle{display:none}
@@ -209,9 +209,9 @@ h2{font-size:40px;text-transform:uppercase;margin:0}
     .banner .content{padding:110px 0 15px}
     .index .banner .content{padding:50px 0 15px}
 }
-.banner h2{position:relative;z-index:100;font-size:53px;margin:30px 30px 0;padding:0 15px}
+.banner h2, .banner h1{position:relative;z-index:100;font-size:53px;margin:30px 30px 0;padding:0 15px}
 .action{font-size:27px;padding:20px 20px 30px;color:rgba(255,255,255,0.7)}
-.banner.home-banner h2{color:#FFF;font-weight:300;text-transform: none}
+.banner.home-banner h2, .banner.home-banner h1{color:#FFF;font-weight:300;text-transform: none}
 .banner.home-banner #crown-lg{position:absolute;right:-100px;z-index:9;width:264px;height:289px;bottom:-100px;left:auto;top:auto}
 @media (min-width:992px) {
     .banner.home-banner #crown-lg{width:529px;height:578px;bottom:-150px;right:-150px}
@@ -238,7 +238,7 @@ img{max-width:100%;height:auto}
 .sub-menu-parent{position:relative}
 .sub-menu-parent:focus .sub-menu,.sub-menu-parent:focus-within .sub-menu,.sub-menu-parent:hover .sub-menu{visibility:visible;opacity:1;z-index:9999;transform:translateY(0%)}
 section.secation-b{padding:110px 0 80px 0;position:relative;width:100%;background-image: linear-gradient(to right, #000, #3e3c3c)}
-.fadeInUp h2{padding:10px 0 20px;text-transform:capitalize}
+.fadeInUp h2, .fadeInUp h1{padding:10px 0 20px;text-transform:capitalize}
 .animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
 @-webkit-keyframes fadeInRight {
     0%{opacity:0;-webkit-transform:translateX(20px);transform:translateX(20px)}
@@ -867,7 +867,7 @@ section#testimonial{margin-bottom:50px}
 .req-lnk{background:#000;padding:10px 70px;margin:0 auto;font-size:20px;color:#fff;font-weight:400;box-shadow:0 20px 40px 0 rgba(0,0,0,0.2);border:1px solid #000;margin-bottom:5px;text-decoration:none;transition:all .7s ease .02s}
 .req-lnk:hover{text-decoration:none}
 #Featured-talent{text-align:center;padding-bottom:90px!important}
-h2.inner{margin-top:10px!important}
+h2.inner, h1.inner{margin-top:10px!important}
 .index .text-center h2{text-align:center;margin-top:10px!important;margin-bottom:0!important;padding-bottom:0!important}
 .carousel_wrap-s .nav_button{position:absolute;left:0;top:50%;margin-top:-10px;height:60px;width:30px;right:0;font-size:30px;font-weight:600;color:#000;cursor:pointer;display:inline-block;background-position:center center;background-repeat:no-repeat;background-size:cover;transition:all .3s ease;text-decoration:none}
 .carousel_wrap-s .nav_button.prev_button{left:0}
@@ -923,7 +923,7 @@ h2.inner{margin-top:10px!important}
     .secation-j a.button-work{width:90%}
     .bx .side-link li{width:100%;float:left}
     .Hfooter .SiteLink{width:90%}
-    .banner h2{font-size:25px}
+    .banner h2, .banner h1{font-size:25px}
     .banner .content{padding:20px}
     section#portfolio{padding-top:20px}
 }
@@ -1044,7 +1044,7 @@ h2.inner{margin-top:10px!important}
     .about-con .container{margin-top:0}
     .h-link{font-size:25px}
     .portfolio-section .details{padding:20px;min-height:110px}
-    .banner h2,.about-points h2,.about-points li,.h-link,.portfolio-section .details h3,.howWeWorkS li b{font-size:17px;line-height: 24px;}
+    .banner h2,.about-points h2,.about-points li,.h-link,.portfolio-section .details h3,.howWeWorkS li b, .banner h1{font-size:17px;line-height: 24px;}
     .index .text-center h2{margin-top:0!important;margin-bottom:10px!important}
     .Apptitle h2{line-height:30px;font-size:20px}
     .kat-app{padding: 0;
@@ -1057,7 +1057,7 @@ h2.inner{margin-top:10px!important}
     .howWeWork{background-size:cover}
     .secation-j .work-title{left:5%!important;background:rgba(0,0,0,0.5);padding-top:15px}
     .STitle{font-size:20px!important}
-    .banner.home-banner h2{font-size:18px;line-height:30px}
+    .banner.home-banner h2, .banner.home-banner h1{font-size:18px;line-height:30px}
     section.secation-j.work.between{padding-bottom:0!important}
     .banner-video{top: 20px;}
 }
